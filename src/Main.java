@@ -28,11 +28,9 @@ public class Main {
         Funcionario maiorBeneficiado = funcionarioComMaiorBeneficio(funcionarios,12,2021);
         Vendedor maiorVendedor = ColaboradorQueMaisVendeu(vendedores,4,2021);
 
-        if(maiorVendedor!= null){
-            System.out.println("Total pago em 12/2021: "+ maiorVendedor);
-        } else{
-            System.out.println("Nenhum vendedor encontrado");
-        }
+
+        System.out.println("Total pago em 12/2021: "+ maiorVendedor);
+
 
         System.out.println("Total pago em 12/2021: "+ String.format("%.2f",totalSemBeneficio));
         System.out.println("Total pago em 12/2021: "+ String.format("%.2f",totalSomenteFuncComBeneficio));
